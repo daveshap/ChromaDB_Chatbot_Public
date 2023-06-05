@@ -28,3 +28,5 @@ This Python script serves as the implementation of a chatbot that leverages the 
    - **Updates the knowledge base** with the most recent conversation, either adding a new entry or updating an existing entry. If an existing entry becomes too long, it's split into two separate entries.
 
 The script logs all interactions with the OpenAI API and updates to the knowledge base, providing a record of the chatbot's operations and aiding in debugging and optimization efforts. The use of the ChromaDB library allows for scalable storage and retrieval of the chatbot's knowledge base, accommodating a growing number of conversations and data points.
+
+But seriously just look at the code, it's pretty straight forward. 
