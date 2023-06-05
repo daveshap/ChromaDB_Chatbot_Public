@@ -147,6 +147,7 @@ if __name__ == '__main__':
             article = chatbot(kb_convo)
             collection.update(ids=[kb_id],documents=[article])
             save_file('db_logs/log_%s_update.txt' % time(), 'Updated document %s:\n%s' % (kb_id, article))
+            # TODO - save more info in DB logs, probably as YAML file (original article, new info, final article)
             
             # Split KB if too large
             kb_len = len(article.split(' '))
