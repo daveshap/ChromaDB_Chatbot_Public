@@ -1,0 +1,6 @@
+chromadb/*
+db_logs/*
+chat_logs/*
+api_logs/*
+user_profile.txt
+key_openai.txt

@@ -1,2 +1,4 @@
 openai
 chromadb
+backoff
+tiktoken
